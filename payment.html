@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Payment page</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231129140637">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-lp>
+			<div class="header__container">
+				<a href class="header__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt></picture></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href class="menu__link">Watches</a></li>
+							<li class="menu__item"><a href class="menu__link">Eyewear</a></li>
+							<li class="menu__item"><a href class="menu__link">Accessories</a></li>
+							<li class="menu__item"><a href class="menu__link">News</a></li>
+						</ul>
+						<!-- here -->
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<a data-popup="#search" href class="actions-header__search _icon-search"></a>
+					<a data-da=".menu__body, 400" href class="actions-header__login _icon-user">Log
+						In</a>
+					<a data-popup="#cart" href class="actions-header__cart _icon-cart"><span>0</span></a>
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="payment-page ">
+			<div class="payment-page__payment payment">
+				<div class="payment__container">
+					<div class="payment__road road-payment">
+						<a href="#" class="road-payment__payment ">
+							<div class="road-payment__image">
+								<img src="img/payment/01.svg" alt="Image">
+							</div>
+							<div class="road-payment__lable">1. Checkout</div>
+						</a>
+						<a href="#" class="road-payment__payment road-payment__payment--orange">
+							<div class="road-payment__image">
+								<img src="img/payment/02.svg" alt="Image">
+							</div>
+							<div class="road-payment__lable">2. Payment</div>
+						</a>
+						<a href="#" class="road-payment__payment ">
+							<div class="road-payment__image">
+								<img src="img/payment/03.svg" alt="Image">
+							</div>
+							<div class="road-payment__lable">3. Confirmation</div>
+						</a>
+					</div>
+					<form action="#" class="payment__body body-payment">
+						<div class="body-payment__content">
+							<div class="body-payment__deteil deteil-checkout">
+								<h3 class="detail-checkout__title order-title">Detail Order</h3>
+								<div class="detail-checkout__info">
+									<div class="detail-checkout__total">
+										<div class="detail-checkout__total-lable">Subtotal</div>
+										<div class="detail-checkout__total-price">Rp 2.152.000</div>
+									</div>
+									<div class="detail-checkout__shippping">
+										<div class="detail-checkout__shippping-lable">Shipping Cost</div>
+										<div class="detail-checkout__shippping-price">Rp 500.000</div>
+									</div>
+									<div class="detail-checkout__promo">
+										<div class="detail-checkout__promo-lable">Promo Code</div>
+										<div class="detail-checkout__promo-price">INDONESIA</div>
+									</div>
+									<div class="detail-checkout__packaging">
+										<div class="detail-checkout__packaging-lable">Packaging</div>
+										<div class="detail-checkout__packaging-price">Rp 50.000</div>
+									</div>
+								</div>
+								<div class="detail-checkout__grandtotal">
+									<div class="detail-checkout__grandtotal-lable">Grand Total</div>
+									<div class="detail-checkout__grandtotal-price">Rp 2.702.000</div>
+								</div>
+							</div>
+							<div class="body-payment__order order-payment">
+								<h3 class="order-payment__title order-title">Order Detail</h3>
+								<div class="order-payment__body body-order-payment">
+									<div class="body-order-payment__content">
+										<div class="body-order-payment__name">Order Number</div>
+										<div class="body-order-payment__values">
+											<div class="body-order-payment__value value-body-order">
+												<div class="value-body-order__value">MTAWEB-3A86D4DB</div>
+												<div class="value-body-order__copy">COPY</div>
+											</div>
+											<div class="body-order-payment__text">Always remember Order Number
+												for easy tracking</div>
+										</div>
+									</div>
+									<div class="body-order-payment__content">
+										<div class="body-order-payment__name">Purchase Date</div>
+										<div class="body-order-payment__values">2019-11-07 14:01:48</div>
+									</div>
+									<div class="body-order-payment__content">
+										<div class="body-order-payment__name">Items</div>
+										<div class="body-order-payment__values">
+											<div class="body-order-payment__value">Way Kambas Mini Ebony</div>
+											<div class="body-order-payment__text">2 x IDR 1.024.000</div>
+											<div class="body-order-payment__value">Sikka (Ebony & Mapple)</div>
+											<div class="body-order-payment__text">1 x IDR 1.264.000</div>
+
+										</div>
+									</div>
+									<div class="body-order-payment__content">
+										<div class="body-order-payment__name">Name</div>
+										<div class="body-order-payment__values">Rasyidin Arsyad Nasution</div>
+									</div>
+									<div class="body-order-payment__content">
+										<div class="body-order-payment__name">Phone</div>
+										<div class="body-order-payment__values">+18911188899</div>
+									</div>
+									<div class="body-order-payment__content">
+										<div class="body-order-payment__name">Email</div>
+										<div class="body-order-payment__values">rasyid.arsyad@gmail.com</div>
+									</div>
+									<div class="body-order-payment__content">
+										<div class="body-order-payment__name">Shipping Address</div>
+										<div class="body-order-payment__values">18 Richardson Drive
+											Fountain Valley, CA 92708</div>
+									</div>
+								</div>
+							</div>
+							<div class="body-payment__time time-payment">
+								<div class="time-payment__body">
+									<h3 class="time-payment__title order-title">Payment Detail</h3>
+									<div class="time-payment__limit-time">11:55:55</div>
+								</div>
+								<div class="time-payment__text">Please make a payment according with
+									the limit time specified, starting from now</div>
+							</div>
+							<div class="body-payment__method method-payment">
+								<h3 class="method-payment__title order-title">Payment Method</h3>
+								<div class="method-payment__content options">
+									<div class="options__item">
+										<input checked id="creditCard" required autocomplete="off" type="radio" name="paymentMethod" value="creditCard-1" class="options__input">
+										<label for="creditCard" class="options__label">
+											<div class="options__body">
+												<span class="options__text">BNI Cicilan 0%</span>
+												<div class="options__image">
+													<picture><source srcset="img/payment/payment-method/01.webp" type="image/webp"><img src="img/payment/payment-method/01.png" alt="Image"></picture>
+												</div>
+											</div>
+
+										</label>
+									</div>
+									<div class="options__item">
+										<input checked id="creditCard-2" required autocomplete="off" type="radio" name="paymentMethod" value="creditCard-2" class="options__input">
+										<label for="creditCard-2" class="options__label">
+											<div class="options__body">
+												<span class="options__text">Mandiri Cicilan 0%</span>
+												<div class="options__image">
+													<picture><source srcset="img/payment/payment-method/02.webp" type="image/webp"><img src="img/payment/payment-method/02.png" alt="Image"></picture>
+												</div>
+											</div>
+
+										</label>
+									</div>
+									<div class="options__item">
+										<input checked id="creditCard-3" required autocomplete="off" type="radio" name="paymentMethod" value="creditCard-3" class="options__input">
+										<label for="creditCard-3" class="options__label">
+											<div class="options__body">
+												<span class="options__text">Bank Transfer</span>
+												<div class="options__image">
+													<picture><source srcset="img/payment/payment-method/03.webp" type="image/webp"><img src="img/payment/payment-method/03.png" alt="Image"></picture>
+												</div>
+											</div>
+
+										</label>
+									</div>
+									<div class="options__item">
+										<input checked id="creditCard-4" required autocomplete="off" type="radio" name="paymentMethod" value="creditCard-4" class="options__input">
+										<label for="creditCard-4" class="options__label">
+											<div class="options__body">
+												<span class="options__text">Credit Card</span>
+												<div class="options__image">
+													<picture><source srcset="img/payment/payment-method/04.webp" type="image/webp"><img src="img/payment/payment-method/04.png" alt="Image"></picture>
+													<picture><source srcset="img/payment/payment-method/05.webp" type="image/webp"><img src="img/payment/payment-method/05.png" alt="Image"></picture>
+												</div>
+											</div>
+
+										</label>
+									</div>
+									<div class="options__item">
+										<input checked id="creditCard-5" required autocomplete="off" type="radio" name="paymentMethod" value="creditCard-5" class="options__input">
+										<label for="creditCard-5" class="options__label">
+											<div class="options__body">
+												<span class="options__text">Credit Card Cicilan 0% (Danamon, UOB &
+													Standard Chartered)</span>
+												<div class="options__image">
+													<picture><source srcset="img/payment/payment-method/06.webp" type="image/webp"><img src="img/payment/payment-method/06.png" alt="Image"></picture>
+													<picture><source srcset="img/payment/payment-method/07.webp" type="image/webp"><img src="img/payment/payment-method/07.png" alt="Image"></picture>
+													<picture><source srcset="img/payment/payment-method/08.webp" type="image/webp"><img src="img/payment/payment-method/08.png" alt="Image"></picture>
+												</div>
+											</div>
+
+										</label>
+									</div>
+									<div class="options__item">
+										<input checked id="creditCard-6" required autocomplete="off" type="radio" name="paymentMethod" value="creditCard-6" class="options__input">
+										<label for="creditCard-6" class="options__label">
+											<div class="options__body">
+												<span class="options__text">GO-PAY</span>
+												<div class="options__image">
+													<picture><source srcset="img/payment/payment-method/09.webp" type="image/webp"><img src="img/payment/payment-method/09.png" alt="Image"></picture>
+												</div>
+											</div>
+
+										</label>
+									</div>
+									<div class="options__item">
+										<input checked id="creditCard-7" required autocomplete="off" type="radio" name="paymentMethod" value="creditCard-7" class="options__input">
+										<label for="creditCard-7" class="options__label">
+											<div class="options__body">
+												<span class="options__text">Krdivo</span>
+												<div class="options__image">
+													<picture><source srcset="img/payment/payment-method/10.webp" type="image/webp"><img src="img/payment/payment-method/10.png" alt="Image"></picture>
+												</div>
+											</div>
+
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="body-payment__action">
+							<button type="submit" class="button button_big">Proceed Payment</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="payment-page__clients clients">
+				<div class="clients__container">
+					<div class="clients__item">
+						<picture><source srcset="img/clients/01.webp" type="image/webp"><img src="img/clients/01.png" alt="Image"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source srcset="img/clients/02.webp" type="image/webp"><img src="img/clients/02.png" alt="Image"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source srcset="img/clients/03.webp" type="image/webp"><img src="img/clients/03.png" alt="Image"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source srcset="img/clients/04.webp" type="image/webp"><img src="img/clients/04.png" alt="Image"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source srcset="img/clients/05.webp" type="image/webp"><img src="img/clients/05.png" alt="Image"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source srcset="img/clients/06.webp" type="image/webp"><img src="img/clients/06.png" alt="Image"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source srcset="img/clients/07.webp" type="image/webp"><img src="img/clients/07.png" alt="Image"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source srcset="img/clients/08.webp" type="image/webp"><img src="img/clients/08.png" alt="Image"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source srcset="img/clients/09.webp" type="image/webp"><img src="img/clients/09.png" alt="Image"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source srcset="img/clients/10.webp" type="image/webp"><img src="img/clients/10.png" alt="Image"></picture>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer data-spollers="991.98,max" class="footer">
+			<div class="footer__container">
+				<div class="footer__column">
+					<a href="#" class="footer__logo">
+						<picture><source srcset="img/logo-footer.webp" type="image/webp"><img src="img/logo-footer.png" alt=""></picture>
+					</a>
+					<div class="footer__blocks">
+						<div class="footer__block">
+							<h3 class="footer__label label-footer">Address</h3>
+							<div class="footer__text">
+								<p>Store & Office</p>
+								<p>Jl. Setrasari Kulon III, No. 10-12,</p>
+								<p>Sukarasa, Sukasari, Bandung,</p>
+								<p>Jawa Barat, Indonesia 40152</p>
+							</div>
+						</div>
+						<div class="footer__block">
+							<h3 class="footer__label label-footer">Office Hour</h3>
+							<div class="footer__text">
+								<p>Monday - Sunday</p>
+								<p>10.00 - 18.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__column">
+					<button type="button" data-spoller class="footer__title title title_white _icon-arrow-select">Get in touch</button>
+					<div class="footer__contacts contacts-footer">
+						<div class="contacts-footer__body">
+							<div class="contacts-footer__label label-footer">Phone</div>
+							<a href="tel:02220277564" class="contacts-footer__value">022-20277564</a>
+							<div class="contacts-footer__label label-footer">Service Center</div>
+							<a href="tel:02220277564" class="contacts-footer__value">0811-233-8899</a>
+							<div class="contacts-footer__label label-footer">Customer Service</div>
+							<a href="tel:02220277564" class="contacts-footer__value">0811-233-8899</a>
+							<div class="footer__social social">
+								<a href="#" class="social__item _icon-s-facebook"></a>
+								<a href="#" class="social__item _icon-s-instagram"></a>
+								<a href="#" class="social__item _icon-s-twitter"></a>
+								<a href="#" class="social__item _icon-s-youtube"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__column">
+					<button type="button" data-spoller class="footer__title title title_white _icon-arrow-select">Useful Link</button>
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Warranty & Complaints</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Order & Shipping</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Tracking Order</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Repair</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Terms</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">FAQ</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__column">
+					<button type="button" data-spoller class="footer__title title title_white _icon-arrow-select">Campaign</button>
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Mengenal Arti Cukup</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Tell Your Difference</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Waykambas</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Rebrand</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Gallery</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Singo</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Rakai</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="search" aria-hidden="true" class="popup popup_search">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<form action="#" method="get" class="seach-form">
+						<div class="seach-form__title title title_small">Search</div>
+						<div class="seach-form__body">
+							<div class="seach-form__line">
+								<input data-required autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Пошук" class="seach-form__input input">
+							</div>
+							<button type="submit" class="button _icon-search"></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="cart" aria-hidden="true" class="popup popup_cart">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<form action="#" class="cart">
+						<div class="cart__items">
+							<div class="cart__item item-cart">
+								<a href class="item-cart__image">
+									<picture><source srcset="img/product/images/preview/01.webp" type="image/webp"><img src="img/product/images/preview/01.png" alt="Image"></picture>
+								</a>
+								<div class="item-cart__body">
+									<a href class="item-cart__title">Way Kambas Mini Ebony</a>
+									<div class="item-cart__old-price old-price">Rp 1.280.000</div>
+									<div class="item-cart__price">Rp 1.024.000</div>
+									<div class="item-cart__options options-item-cart">
+										<div class="options-item-cart__label">Custom Engrave</div>
+										<div class="options-item-cart__value">“Happy | Birthday | from”</div>
+									</div>
+								</div>
+								<div class="item-cart__info">
+									<div class="item-cart__packaging">
+										<div class="item-cart__label">Select Packaging</div>
+										<select name="form[]" data-class-modif="cart">
+											<option value="1" selected>Wooden Packaging (Rp 50.000)</option>
+											<option value="2">Wooden Packaging (Rp 40.000)</option>
+											<option value="3">Wooden Packaging (Rp 30.000)</option>
+											<option value="4">Wooden Packaging (Rp 20.000)</option>
+										</select>
+									</div>
+									<div class="item-cart__actions">
+										<div data-quantity class="item-cart__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<div class="item-cart__total">Rp 2.048.000</div>
+										<button class="item-cart__delete _icon-delete"></button>
+									</div>
+								</div>
+							</div>
+							<div class="cart__item item-cart">
+								<a href class="item-cart__image">
+									<picture><source srcset="img/product/images/preview/02.webp" type="image/webp"><img src="img/product/images/preview/02.png" alt="Image"></picture>
+								</a>
+								<div class="item-cart__body">
+									<a href class="item-cart__title">Way Kambas Mini Ebony</a>
+									<div class="item-cart__price">Rp 1.024.000</div>
+									<div class="item-cart__options options-item-cart">
+										<div class="options-item-cart__label">Custom Engrave</div>
+										<div class="options-item-cart__value">“Happy | Birthday | from”</div>
+									</div>
+								</div>
+								<div class="item-cart__info">
+									<div class="item-cart__packaging">
+										<div class="item-cart__label">Select Packaging</div>
+										<select name="form[]" data-class-modif="cart">
+											<option value="1" selected>Wooden Packaging (Rp 50.000)</option>
+											<option value="2">Wooden Packaging (Rp 40.000)</option>
+											<option value="3">Wooden Packaging (Rp 30.000)</option>
+											<option value="4">Wooden Packaging (Rp 20.000)</option>
+										</select>
+									</div>
+									<div class="item-cart__actions">
+										<div data-quantity class="item-cart__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<div class="item-cart__total">Rp 2.048.000</div>
+										<button class="item-cart__delete _icon-delete"></button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cart__footer">
+							<div class="cart__promo promo-cart">
+								<label for="p-1" class="promo-cart__label">Kode Promo</label>
+								<div class="promo-cart__line">
+									<input id="p-1" autocomplete="off" type="text" name="promo" class="promo-cart__input">
+								</div>
+								<div class="promo-cart__info">35% OFF</div>
+							</div>
+							<div class="cart__total total-cart">
+								<div class="total-cart__label">Total</div>
+								<div class="total-cart__value">
+									<div class="total-cart__old-price old-price">Rp 3.312.000</div>
+									<div class="total-cart__price">Rp 2.152.000</div>
+								</div>
+							</div>
+						</div>
+						<button type="submit" class="cart__button button">Checkout</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20231129140637"></script>
+</body>
+
+</html>

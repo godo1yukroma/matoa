@@ -1,0 +1,52 @@
+{
+	"monthlyDeals": [
+		{
+			"id": 1,
+			"title": "Singo Maple ",
+			"sale": "20% off",
+			"image": "img/monthly-deals/01.jpg",
+			"price": {
+				"value": "1.280.000",
+				"oldvalue": "1.500.000"
+			},
+			"category": 1,
+			"url": "https://google.com"
+		},
+		{
+			"id": 2,
+			"title": "Singo Ebony ",
+			"sale": "20% off",
+			"image": "img/monthly-deals/02.jpg",
+			"price": {
+				"value": "1.260.000",
+				"oldvalue": "1.500.000"
+			},
+			"category": 1,
+			"url": "https://google.com"
+		},
+		{
+			"id": 3,
+			"title": "Rakai Ebony ",
+			"sale": "10% off",
+			"image": "img/monthly-deals/03.jpg",
+			"price": {
+				"value": "1.280.000",
+				"oldvalue": "1.500.000"
+			},
+			"category": 1,
+			"url": "https://google.com"
+		},
+		{
+			"id": 4,
+			"title": "Way Kambas Mini Maple",
+			"sale": "15% off",
+			"image": "img/monthly-deals/04.jpg",
+			"price": {
+				"value": "1.280.000",
+				"oldvalue": "1.500.000"
+			},
+			"category": 1,
+			"url": "https://google.com"
+		}
+	]
+}
